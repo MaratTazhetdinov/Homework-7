@@ -13,6 +13,10 @@
 		793A14BA268F97D8000508EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793A14B8268F97D8000508EE /* Main.storyboard */; };
 		793A14BC268F97D9000508EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793A14BB268F97D9000508EE /* Assets.xcassets */; };
 		793A14BF268F97D9000508EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793A14BD268F97D9000508EE /* LaunchScreen.storyboard */; };
+		793A14C7268F97F0000508EE /* Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A14C6268F97F0000508EE /* Task1.swift */; };
+		793A14C9268FA029000508EE /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A14C8268FA029000508EE /* Task2.swift */; };
+		793A14CB26908C05000508EE /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A14CA26908C05000508EE /* Task3.swift */; };
+		793A14CD26908C2A000508EE /* Task2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A14CC26908C2A000508EE /* Task2.1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		793A14BB268F97D9000508EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793A14BE268F97D9000508EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793A14C0268F97D9000508EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793A14C6268F97F0000508EE /* Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1.swift; sourceTree = "<group>"; };
+		793A14C8268FA029000508EE /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		793A14CA26908C05000508EE /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		793A14CC26908C2A000508EE /* Task2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				793A14BB268F97D9000508EE /* Assets.xcassets */,
 				793A14BD268F97D9000508EE /* LaunchScreen.storyboard */,
 				793A14C0268F97D9000508EE /* Info.plist */,
+				793A14C6268F97F0000508EE /* Task1.swift */,
+				793A14C8268FA029000508EE /* Task2.swift */,
+				793A14CC26908C2A000508EE /* Task2.1.swift */,
+				793A14CA26908C05000508EE /* Task3.swift */,
 			);
 			path = "Homework 7";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793A14CB26908C05000508EE /* Task3.swift in Sources */,
+				793A14C9268FA029000508EE /* Task2.swift in Sources */,
+				793A14CD26908C2A000508EE /* Task2.1.swift in Sources */,
 				793A14B7268F97D8000508EE /* ViewController.swift in Sources */,
 				793A14B3268F97D8000508EE /* AppDelegate.swift in Sources */,
+				793A14C7268F97F0000508EE /* Task1.swift in Sources */,
 				793A14B5268F97D8000508EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
